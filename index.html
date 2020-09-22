@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>music</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="https://kit.fontawesome.com/38e218237f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <div class="logo-main"><img src="./images/logo.svg"></div>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="">登録する</a></li>
+                        <li><a href="">サインイン</a></li>
+                    </ul>
+                </nav>
+
+            </div> <!-- header-main-->
+        </div> <!-- container -->
+    </header>
+
+    <section class="swiper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide01">
+                    <div class="swiper-content">
+                        <div class="slide-contents-title">
+                            <p>特別な一曲をあなたに</p>
+                        </div>
+                        <div class="slide-contents-text">
+                            <p>世界中の楽曲をチェック<br>
+                                あの音楽が見つかる</p>
+                        </div>
+                    </div>  <!-- swiper-content -->
+                </div> <!-- swiper-slide1 -->
+
+                <div class="swiper-slide slide02">
+                    <div class="slide-contents">
+                        <div class="slide-contents-title">
+                            <p>音楽を共有しよう</p>
+                        </div>
+                        <div class="slide-contents-text">
+                            <p>
+                                気に入った楽曲をSNSで簡単にシェア<br>
+                                シェアを通して新しい音楽と出会おう
+                            </p>
+                        </div>
+                    </div> <!-- slide-contents -->
+                </div> <!-- swiper-slide2 -->
+
+                <div class="swiper-slide slide03">
+                    <div class="slide-contents">
+                        <div class="slide-contents-title">
+                            <p>世界の音楽を肌で感じよう</p>
+                        </div>
+                        <div class="slide-contents-text">
+                            <p>
+                                世界で流行の音楽を<br>
+                                いち早くあなたに
+                            </p>
+                        </div>
+                    </div> <!-- slide-contents -->
+                </div> <!-- swiper-slide3 -->
+            </div> <!-- swiper-wrapper -->
+
+            <div class="swiper-button">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div><!-- swiper-button -->
+
+            <div class="swiper-pagination"></div>
+        </div>  <!-- swiper-container -->
+    </section> <!-- swiper -->
+
+    <section class="section-01">
+        <div class="container">
+            <div class="free-title">
+                音楽の楽しさを手軽に
+            </div>
+            <div class="free-text">
+                <p>
+                    厳選された音楽から聴きたい曲が見つかる。<br>
+                    最新楽曲情報をすぐさまチェック<br>
+                    音楽イベント情報を配信。
+                </p>
+            </div>
+        </div> <!-- container -->
+    </section> <!-- section-01 -->
+
+    <section class="section-02">
+        <div class="container">
+            <div class="free-title">
+                欲しい音楽を必ず
+            </div>
+            <div class="free-text">
+                <p>
+                    数千万の楽曲からあなたに合った曲を見つけられます。<br>
+                    曲⁠名⁠が分⁠か⁠ら⁠な⁠く⁠て⁠も⁠、歌⁠詞のフレーズ⁠や曲⁠の⁠特⁠徴⁠で検⁠索⁠で⁠き⁠ま⁠す⁠。<br>
+                    ラ⁠イ⁠ブ⁠版⁠、リ⁠ミ⁠ッ⁠ク⁠ス⁠版⁠など、様々な種類の曲を楽しめます。
+                </p>
+            </div>
+        </div><!-- container -->
+    </section><!-- section-02 -->
+
+    <section class="section-03">
+        <div class="container">
+            <div class="contents-main">
+                <div class="contents-text">
+                    <p>
+                        新⁠し⁠い⁠音⁠楽⁠の⁠世⁠界⁠をあなたの為に。<br>
+                        高品質な音⁠楽⁠を見⁠つ⁠け⁠ま⁠し⁠ょ⁠う⁠。<br>
+                        音楽の楽しさをあなたの手に。
+                    </p>
+                </div> <!-- contents-text -->
+                <div class="contents-button">
+                    <button>
+                        使ってみる
+                    </button>
+                </div> <!-- contents-button -->
+            </div> <!-- contents-main -->
+        </div> <!-- container -->
+    </section> <!-- section-03 -->
+
+    <footer>
+        <div class="container">
+           <div class="logo">
+               <div class="logo-main"><img src="./images/logo.svg"></div>
+           </div>
+           <div class="footer-nav">
+              <ul>
+                  <li><a href=""><i class="sns-icon fab fa-instagram"></i></a></li>
+                  <li><a href=""><i class="sns-icon fab fa-twitter-square"></i></a></li>
+                  <li><a href=""><i class="sns-icon fab fa-facebook-square"></i></a></li>
+              </ul>
+           </div> <!-- footer-nav-03 -->
+
+            <div class="footer-bottom">
+                <div class="copyright">© copyright music</div>
+            </div><!-- footer-bottom -->
+
+        </div> <!-- container -->
+    </footer>
+
+    <!-- script -->
+    <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container',{
+                speed: 1000,
+                autoplay: {
+                    delay: 4000,
+                },
+                loop: true,
+                loopedSlides: 3,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+        });
+    </script>
+    <!-- script -->
+</body>
+</html>
